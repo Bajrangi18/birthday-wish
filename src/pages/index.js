@@ -1,11 +1,9 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Grid , ButtonBase } from "@mui/material"
+import { Grid } from "@mui/material"
 import "../styles.css"
 import cakeImage from "../images/cake.webp"
-import emojiImage from "../images/emoji.png"
 import Confetti from 'react-confetti'
 
 const IndexPage = () => {
