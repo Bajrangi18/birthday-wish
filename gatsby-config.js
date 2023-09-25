@@ -26,6 +26,16 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Bebas Neue`,
+          `source sans serif\:400` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
